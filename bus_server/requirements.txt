@@ -1,0 +1,35 @@
+# Web framework
+fastapi
+uvicorn[standard]
+
+# HTTP client
+httpx
+
+# Database
+sqlalchemy[asyncio]
+asyncpg
+alembic
+
+# Redis
+redis[hiredis]
+
+# Scheduler
+apscheduler
+
+# Computer Vision / ML
+ultralytics
+onnxruntime
+opencv-python-headless
+numpy
+
+# Video stream decoding
+av
+
+# OCR (optional, for LED sign reading)
+easyocr
+
+# Config
+pydantic-settings==2.7.1
+
+# Geospatial
+shapely==2.0.6

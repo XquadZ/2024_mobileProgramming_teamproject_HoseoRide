@@ -1,0 +1,42 @@
+name: bus_client
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.11.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  flutter_riverpod:
+  riverpod_annotation:
+
+  # Networking
+  dio:
+  web_socket_channel:
+
+  # Routing
+  go_router:
+
+  # Map
+  flutter_naver_map:
+
+  # Utilities
+  json_annotation:
+  intl:
+  freezed_annotation:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints:
+  build_runner:
+  json_serializable:
+  freezed:
+  riverpod_generator:
+
+flutter:
+  uses-material-design: true

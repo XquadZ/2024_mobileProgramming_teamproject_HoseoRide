@@ -1,0 +1,68 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.iml
+
+# Python (bus_server)
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+
+# Python environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Build and temp outputs
+build/
+dist/
+tmp/
+temp/
+
+# Flutter/Dart generated artifacts (bus_client)
+.dart_tool/
+.packages
+.pub/
+.pub-cache/
+
+# Flutter build outputs
+bus_client/build/
+bus_client/.flutter-plugins
+bus_client/.flutter-plugins-dependencies
+
+# Android / iOS local files
+bus_client/android/local.properties
+bus_client/ios/Flutter/ephemeral/
+bus_client/macos/Flutter/ephemeral/
+
+# Server model/cache artifacts
+bus_server/.cache/
+bus_server/*.onnx
+bus_server/*.pt
+
+# Additional safety ignores
+Desktop.ini
+*.swp
+*.swo
+
+# Python extra caches/artifacts
+.ipynb_checkpoints/
+.hypothesis/
+htmlcov/
+pip-wheel-metadata/
+
+# Flutter local/tooling files
+bus_client/.fvm/
+bus_client/.dart_tool/
